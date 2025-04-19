@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
             <li className="hover:text-blue-500"><Link href={"/"}>Home</Link></li>
             <li><Link href={"/about"}>About</Link></li>
             <li><Link href={"/blogs"}>Blogs</Link></li>
+            <li><Link href={"/posts"}>Posts</Link></li>
           </ul>
         </nav>
         {children}

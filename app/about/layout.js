@@ -1,3 +1,7 @@
+export const metadata = {
+	title: "About",
+	description: "This is a about page",
+};
 
 const layout = ({children}) => {
 
